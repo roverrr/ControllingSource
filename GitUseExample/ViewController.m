@@ -14,6 +14,12 @@
 
 @implementation ViewController
 
+#pragma mark - IBActions
+
+-(IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"button pressed");
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
